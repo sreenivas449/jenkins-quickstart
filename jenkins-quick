@@ -3,8 +3,8 @@ pipeline {
    stages {
       stage('periodicquid') {
          steps {
-             echo " ${ BRANCH_NAME} "
-             echo " ${ BUILD_NUMBER}"
+             echo " ${BRANCH_NAME} "
+             echo " ${BUILD_NUMBER}"
          }
        }
     }
